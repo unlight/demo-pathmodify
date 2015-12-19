@@ -13,9 +13,9 @@ var b = browserify({
 	packageCache: {},
 });
 
-b.plugin(pathmodify(), {
+b.plugin(pathmodify, {
 	mods: [
-		pathmodify.mod.dir("~", path.join(root, "./src"))
+		pathmodify.mod.dir("~", path.join(root, "src"))
 	]
 });
 
