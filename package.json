@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "browserify": "^12.0.1",
+    "browserify": "^14.1.0",
     "pathmodify": "^0.5.0",
     "pkg-up": "^1.0.0"
   }
